@@ -26,7 +26,7 @@ function myFunction2() {
     var storedNames = JSON.parse(localStorage.getItem("names"));
     console.log(storedNames)
 
-    window.location="file:///C:/Users/reena_/Desktop/CPS%20tester/score.html?"+roundedCps
+    window.location="https://weirdkidwastaken.github.io/WeirdKidWastaken/StellarStrike/score.html?"+roundedCps
 }
 
 var cps_array = [];
