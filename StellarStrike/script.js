@@ -1,5 +1,8 @@
 var count = 0
 
+if(localStorage.getItem('names') == null){
+   localStorage.setItem('names', [])
+}
 
 function replace() {
 	const listItem = document.getElementById("woo")
@@ -14,7 +17,6 @@ function myFunction() {
 }
 
 function myFunction2() {
-    localStorage.setItem("names","[]");
 	
     var cps = (count++)/3
     var roundedCps = +cps.toFixed(2);
