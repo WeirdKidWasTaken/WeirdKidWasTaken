@@ -1,0 +1,47 @@
+body {
+    background-color: #0b0e13;
+    font-family: 'Mulish', sans-serif;
+    color: #2a3b5a;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.textBox {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.boxy {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    width: 95%;
+    height: 280px;
+    background-color: #10151d;
+    border-radius: 30px;
+    color: #2a3b5a;
+    font-size: 50px;
+    border: none;
+    transition: transform 0.1s ease-in-out;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+canvas{
+    margin: 0 auto;
+    }
