@@ -14,6 +14,8 @@ function myFunction() {
 }
 
 function myFunction2() {
+    localStorage.setItem("names","[]");
+	
     var cps = (count++)/3
     var roundedCps = +cps.toFixed(2);
     console.log(cps)
