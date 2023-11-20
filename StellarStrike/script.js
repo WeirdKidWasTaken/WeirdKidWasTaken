@@ -1,7 +1,7 @@
 var count = 0
 
 if(localStorage.getItem('names') == null){
-   localStorage.setItem('names', [])
+   localStorage.setItem('names', '[]')
 }
 
 function replace() {
